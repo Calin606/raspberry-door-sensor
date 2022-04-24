@@ -1,7 +1,6 @@
 #!/bin/bash
 ##### Start http service
-ls /home/app/
-cd /home/app/doorSensor/
+cd /home/app/
 
 sudo forever-service install doorSensor -r app
 
